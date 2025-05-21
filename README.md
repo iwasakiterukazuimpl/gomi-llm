@@ -34,7 +34,6 @@ source venv/bin/activate
 # Windowsの場合は venv\Scripts\activate
 
 依存ライブラリのインストール
-（※以下は仮。実際のライブラリがわかれば正確に記載できます）
 
 ```bash
 pip install -r requirements.txt
