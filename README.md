@@ -25,11 +25,13 @@ plaintext
 ---
 
 ## 🛠️ セットアップ手順
-仮想環境の作成と有効化（例：venv使用）（Windowsの場合は venv\Scripts\activate）
+仮想環境の作成と有効化（例：venv使用）
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
+
+# Windowsの場合は venv\Scripts\activate
 ```
 
 依存ライブラリのインストール
@@ -42,7 +44,9 @@ Ollamaのインストールとモデルの準備
 
 ```bash
 # Ollamaのインストール（詳細は https://ollama.com/ を参照）
-ollama run llama3
+brew install ollama
+
+ollama run mistral
 ```
 
 スクリプトの実行
