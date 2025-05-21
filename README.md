@@ -15,11 +15,13 @@ OllamaローカルLLMとの対話
 ---
 
 ## 📁 ディレクトリ構成
+```bash
 .
 ├── gomi-llm_local.py      # メインスクリプト
 ├── text.json              # ゴミ分別情報（例：札幌市のデータ）
 ├── README.md              # このファイル
 └── requirements.text      # Python仮想環境（推奨）
+```
 
 ---
 
