@@ -25,13 +25,12 @@ plaintext
 ---
 
 ## 🛠️ セットアップ手順
-仮想環境の作成と有効化（例：venv使用）
+仮想環境の作成と有効化（例：venv使用）（Windowsの場合は venv\Scripts\activate）
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
-# Windowsの場合は venv\Scripts\activate
 
 依存ライブラリのインストール
 
